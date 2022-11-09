@@ -41,36 +41,14 @@
 // var header = document.getElementById('main-header');
 // header.style.borderBottom='solid 3px #000';
 // {/* <h2 class="title">Add Items</h2> */}
-let items=document.getElementsByClassName('list-group-item');
+// let items=document.getElementsByClassName('list-group-item');
 
-console.log(items);
+// console.log(items);
 
-items[1].textContent='Hello 2';
+// items[1].textContent='Hello 2';
 
-items[1].style.fontWeight="bold";
+// items[1].style.fontWeight="bold";
 
-items[1].style.backgroundColor='green';
+// items[1].style.backgroundColor='green';
 
 
-
-// 1) In the DOM structure
-
-// <head>
-
-// [head is a Element child of Root element] 
-
-// <h1> Title </h1>
-
-// [h1 is element and child of <body> and it has attribute of Text]
-
-// </head>
-
-// <body>
-
-// <input type="text" name="Name" />
-
-// <input type="button" value="Submit" />
-
-// its children of body tag
-
-// </body>
