@@ -32,3 +32,25 @@
     <script src="task6.js"></script>
 </body>
 </html>
+
+
+
+
+//grabbing last list
+// var lastItem  = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color= 'blue';
+
+// var secondItem= document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color='coral';
+
+
+
+// Sharpeners: Deliverable
+//1)Make the 2nd item have green background color
+var secondItem= document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor ='green';
+
+//2)Make the 3rd item invisible
+var thirdItem= document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.display = 'hidden';
+//check onece 3rd item is invisible
